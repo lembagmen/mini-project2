@@ -86,16 +86,51 @@
    background-color: lightcoral;
 }
 
-.fieldLength{
-   width: 200px
+.ID{
+   width: 65px;
+   margin: 10px;
+}
+
+.categ{
+   width: 136px;
+   margin: 10px;
+}
+
+.supplier{
+   width: 130px;
+   margin: 10px;
+}
+
+.location{
+   width: 132px;
+   margin: 10px;
+}
+
+.description{
+   width: 136px;
+   margin: 10px;
 }
 
 .tableStriped{
    background-color: lightsteelblue;
 }
 
+.btn-nt{
+   background-color: lightskyblue;
+   border-radius: 8px;
+}
+
+.btn-upd{
+   background-color: lightyellow;
+   border-radius: 8px;
+}
+
+.btn-del{
+   background-color: lightpink;
+   border-radius: 8px;
+}
 .overflow{
-   height: 62.4vh;
+   height: 57.7vh;
    overflow:auto;
 }
 

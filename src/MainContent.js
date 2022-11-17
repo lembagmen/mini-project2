@@ -10,14 +10,30 @@ class MainContent extends React.Component{
          <div className='container-fluid row p-3 m-0'>
             <div className="transactions col-sm-8 text-center pt-2">
                <div className='container-fluid row'>
-                  <div className="table-responsive col-sm-3 row">
-                     <table className="table fieldLength">
+                  <div className="table-responsive col-sm-2 row">
+                     <table className="table ID">
+                        <tr>
+                           <td className="tableHeader">ID</td>
+                        </tr>
+                        <tr>
+                           <td>
+                              <select className="ID category bg-white" name="ID">
+                                 <option value="">ID 1</option>
+                                 <option value="">ID 2</option>
+                                 <option value="">ID 3</option>
+                              </select>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+                  <div className="table-responsive col-sm-2 row">
+                     <table className="table categ">
                         <tr>
                            <td className="tableHeader">Category</td>
                         </tr>
                         <tr>
                            <td>
-                              <select className="fieldLength category bg-white" name="Category">
+                              <select className="categ category bg-white" name="Category">
                                  <option value="">Category 1</option>
                                  <option value="">Category 2</option>
                                  <option value="">Category 3</option>
@@ -34,14 +50,14 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-3 row">
-                     <table className='table fieldLength'>
+                  <div className="table-responsive col-sm-2 row">
+                     <table className='table supplier'>
                         <tr>
                            <td className="tableHeader">Supplier</td>
                         </tr>
                         <tr>
                            <td>
-                              <select className="fieldLength supplier bg-white" name="Supplier">
+                              <select className="supplier category bg-white" name="Supplier">
                                  <option value="">Supplier 1</option>
                                  <option value="">Supplier 2</option>
                                  <option value="">Supplier 3</option>
@@ -53,14 +69,14 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-3 row">
-                     <table className='table fieldLength'>
+                  <div className="table-responsive col-sm-2 row">
+                     <table className='table location'>
                         <tr>
                            <td className=" tableHeader">Location</td>
                         </tr>
                         <tr>
                            <td>
-                              <select className="fieldLength location bg-white" name="Location">
+                              <select className="location category bg-white" name="Location">
                                  <option value="">Location 1</option>
                                  <option value="">Location 2</option>
                                  <option value="">Location 3</option>
@@ -72,14 +88,14 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-3 row">
-                     <table className='table fieldLength'>
+                  <div className="table-responsive col-sm-2 row">
+                     <table className='table description'>
                         <tr>
                            <td className=" tableHeader">Description</td>
                         </tr>
                         <tr>
                            <td>
-                              <select className="fieldLength description bg-white" name="Description">
+                              <select className="description category bg-white" name="Description">
                                  <option value="">Description 1</option>
                                  <option value="">Description 2</option>
                                  <option value="">Description 3</option>
@@ -90,7 +106,29 @@ class MainContent extends React.Component{
                         </tr>
                      </table>
                   </div>
+
+                  <div className="table-responsive col-sm-2 row ms-5">
+                     <table className='table'>
+                        <tr>
+                           <td className='btn-nt'>
+                              <button className="btn">NEW TRANSACTION</button>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td className='btn-upd'>
+                              <button className="btn">UPDATE</button>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td className='btn-del'>
+                           <button className="btn">DELETE</button>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
                </div>
+
+               
                
                <div className="table-responsive overflow">
                   <table className="table table-striped table-hover table-bordered">
