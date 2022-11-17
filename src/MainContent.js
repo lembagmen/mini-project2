@@ -10,7 +10,7 @@ class MainContent extends React.Component{
          <div className='container-fluid row p-3 m-0'>
             <div className="transactions col-sm-8 text-center pt-2">
                <div className='container-fluid row'>
-                  <div className="table-responsive col-sm-3 row me-1">
+                  <div className="table-responsive col-sm-3 row">
                      <table className="table fieldLength">
                         <tr>
                            <td className="tableHeader">Category</td>
@@ -34,7 +34,7 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-3 row mx-1">
+                  <div className="table-responsive col-sm-3 row">
                      <table className='table fieldLength'>
                         <tr>
                            <td className="tableHeader">Supplier</td>
@@ -53,7 +53,7 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-3 row mx-1">
+                  <div className="table-responsive col-sm-3 row">
                      <table className='table fieldLength'>
                         <tr>
                            <td className=" tableHeader">Location</td>
@@ -72,7 +72,7 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-3 row ms-1">
+                  <div className="table-responsive col-sm-3 row">
                      <table className='table fieldLength'>
                         <tr>
                            <td className=" tableHeader">Description</td>
