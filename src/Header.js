@@ -1,9 +1,5 @@
 import React from 'react';
-
-const logoSection = <div class="logo">Logo Here</div>;
-const menus = ["Home", "About", "Contact Us", "Login"];
-const mainMenu = menus.map((item) => <li>{item}</li>);
-
+import logo from './logo.png';
 
 class Header extends React.Component{
    constructor(props){
@@ -12,16 +8,20 @@ class Header extends React.Component{
 
    render(){
       return(
-         <div className='header'>
-            <div className="row">
-               <div className='col-sm-4'>
-                  {logoSection}
-               </div>
-               <div className='col-sm-8'>
-                  {mainMenu}
+         <nav className="navbar navbar-expand-sm">
+            <div className="container-fluid col-sm-8">
+               <img className="logo me-5 pe-3" src={logo} alt="metaInventoryLogo" title="Meta Inventory"></img>
+               <div className="collapse navbar-collapse ms-3" id="navbar_toggler">
+                  <div className="navbar-nav nav nav-pills card-header-pills">
+                     <ul className="list-inline">
+                        <li className="list-inline-item px-5 ms-5">Transactions</li>
+                        <li className="list-inline-item px-5">Query/Reports</li>
+                        <li className="list-inline-item px-5">Administration</li>
+                     </ul>
+                  </div>
                </div>
             </div>
-         </div>
+         </nav>
       );
    }
 }

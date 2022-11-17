@@ -7,7 +7,7 @@ class Footer extends React.Component{
 
    render(){
       return(
-         <div>{this.props.textContent}</div>
+         <div className='footer text-center py-4'>{this.props.textContent}</div>
       );
    }
 }

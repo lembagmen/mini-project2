@@ -37,23 +37,89 @@
   }
 }
 
-.square{
-   width: 50px;
-   height: 50px;
-   border: 1px solid #282c34;
-   text-align: center;
-   display: inline-block;
-   margin: 5px;
+
+
+
+
+.body{
+   display: flex;
+   flex-direction: column;
+   background-color: #fff9e9;
+   font-family: Geneva, sans-serif;
+   height: 100vh;
 }
 
-.gray{
-   background-color: gray;
+.navbar{
+   background-color: #add8e6;
+   font-size: 24px;
+   height: 15vh
 }
 
-.white{
-   background-color: green;
+.transactions{
+   background-color: lightsalmon;
+   font-weight:normal;
+   font-size: 24px;
+   height: 75vh;
 }
 
-.header{
-   list-style: none;
+.dashboard{
+   background-color: lightgreen;
+   font-weight:normal;
+   font-size: 24px;
+   height: 75vh;
+}
+
+.footer{
+   background-color: lightslategray;
+   height: 10vh;
+}
+
+.logo{
+   height: 12vh;
+}
+
+.category{
+   border: 2px solid black;
+}
+
+.tableHeader{
+   background-color: lightcoral;
+}
+
+.fieldLength{
+   width: 200px
+}
+
+.tableStriped{
+   background-color: lightsteelblue;
+}
+
+.overflow{
+   height: 62.4vh;
+   overflow:auto;
+}
+
+
+
+
+.text-input-field{
+   max-width: 200px;
+}
+
+.number-input-field{
+   max-width: 100px;
+}
+
+.error-field{
+   border: 1px solid red !important;
+}
+
+.errorMessage{
+   color: red;
+   font-size: 12px;
+}
+
+.hasMove{
+   background-color: #282c34;
+   color: #ccc;
 }

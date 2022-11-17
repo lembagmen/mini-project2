@@ -1,22 +1,18 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min';
 import './App.css';
 import Header from './Header.js';
+import MainContent from './MainContent.js';
 import Footer from './Footer';
-// import MainContent from './MainContent';
-import Square from './Square';
-import Board from './Board';
+
 
 function App() {
-return (
-    <div className="">
-      <Square textContent="Hello" dataIndex="1"/>
-      <Square textContent="World" dataIndex="2"/>
-      <hr></hr>
-      <Header/>
-      <Board/>
-
-      <Footer textContent="All rights reserved 2022."/>
-    </div>
+   return (
+      <div className="body">
+         <Header/>
+         <MainContent className="mainContent"/>
+         <Footer textContent="All rights reserved 2022."/>
+      </div>
   );
 }
 
