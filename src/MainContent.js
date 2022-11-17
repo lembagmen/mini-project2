@@ -8,7 +8,7 @@ class MainContent extends React.Component{
    render(){
       return(
          <div className='container-fluid row p-3 m-0'>
-            <div className="transactions col-sm-8 text-center pt-2">
+            <div className="transactions col-sm-8 pt-2 text-center">
                <div className='container-fluid row'>
                   <div className="table-responsive col-sm-2 row">
                      <table className="table ID">
@@ -91,7 +91,7 @@ class MainContent extends React.Component{
                   <div className="table-responsive col-sm-2 row">
                      <table className='table description'>
                         <tr>
-                           <td className=" tableHeader">Description</td>
+                           <td className="tableHeader">Description</td>
                         </tr>
                         <tr>
                            <td>
@@ -107,21 +107,21 @@ class MainContent extends React.Component{
                      </table>
                   </div>
 
-                  <div className="table-responsive col-sm-2 row ms-5">
+                  <div className="table-responsive col-sm-2 row ms-5 p-0">
                      <table className='table'>
                         <tr>
                            <td className='btn-nt'>
-                              <button className="btn">NEW TRANSACTION</button>
+                              <button className="btn"><b>NEW TRANSACTION</b></button>
                            </td>
                         </tr>
                         <tr>
                            <td className='btn-upd'>
-                              <button className="btn">UPDATE</button>
+                              <button className="btn"><b>UPDATE</b></button>
                            </td>
                         </tr>
                         <tr>
                            <td className='btn-del'>
-                           <button className="btn">DELETE</button>
+                           <button className="btn"><b>DELETE</b></button>
                            </td>
                         </tr>
                      </table>
@@ -283,7 +283,11 @@ class MainContent extends React.Component{
                   </table>
                </div>
             </div>
-            <div className="dashboard col-sm-4 text-center">Dashboard</div>
+            <div className="dashboard col-sm-4 row text-center">
+               <div className='products col-sm-4 row bg-primary p-1'><b>100</b><br/>Total PRODUCTS</div>
+               <div className='categories col-sm-3 row bg-success pe-4'><b>10</b><br/>Different CATEGORIES</div>
+               <div className='locations col-sm-4 row bg-danger ps-5'><b>5</b><br/>LOCATIONS</div>
+            </div>
          </div>
       );
    }

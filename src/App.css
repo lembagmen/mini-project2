@@ -62,13 +62,6 @@
    height: 75vh;
 }
 
-.dashboard{
-   background-color: lightgreen;
-   font-weight:normal;
-   font-size: 24px;
-   height: 75vh;
-}
-
 .footer{
    background-color: lightslategray;
    height: 10vh;
@@ -129,10 +122,38 @@
    background-color: lightpink;
    border-radius: 8px;
 }
+
+/* .btn{
+   font-weight: 100;
+} */
+
 .overflow{
    height: 57.7vh;
    overflow:auto;
 }
+
+.dashboard{
+   background-color: lightgreen;
+   font-weight:normal;
+   font-size: 24px;
+   height: 75vh;
+}
+
+.products{
+   width: 230px;
+   height: 140px
+}
+
+.categories{
+   width: 216px;
+   height: 140px
+}
+
+.locations{
+   width: 230px;
+   height: 140px
+}
+
 
 
 
