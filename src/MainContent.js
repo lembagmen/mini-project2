@@ -7,9 +7,9 @@ class MainContent extends React.Component{
 
    render(){
       return(
-         <div className='container-fluid row p-3 m-0'>
-            <div className="transactions col-sm-8 pt-2 text-center">
-               <div className='container-fluid row'>
+         <div className='container-fluid row my-3'>
+            <div className="container-fluid transactions col-sm-8 pt-2 text-center">
+               <div className=' row'>
                   <div className="table-responsive col-sm-2 row">
                      <table className="table ID">
                         <tr>
@@ -284,9 +284,56 @@ class MainContent extends React.Component{
                </div>
             </div>
             <div className="dashboard col-sm-4 row text-center">
-               <div className='products col-sm-4 row bg-primary p-1'><b>100</b><br/>Total PRODUCTS</div>
-               <div className='categories col-sm-3 row bg-success pe-4'><b>10</b><br/>Different CATEGORIES</div>
-               <div className='locations col-sm-4 row bg-danger ps-5'><b>5</b><br/>LOCATIONS</div>
+               <div className='bgr col-sm-5 bg-primary m-3'><b>100</b><br/> Total PRODUCTS</div>
+               <div className='bgr col-sm-5 bg-success m-3'><b>10</b><br/> Different CATEGORIES</div>
+               <div className='bgr col-sm-11 bg-danger m-3'><b>5</b><br/>LOCATIONS</div>
+               <div>
+                  <h2 className='mt-4'>Top 5 Purchase Products</h2>
+                  <div className="table-responsive">
+                     <table className="table table-striped table-hover table-bordered">
+                        <thead className="bg-info">
+                           <tr>
+                              <th>Category</th>
+                              <th>Product Description</th>
+                              <th>Quantity</th>
+                              <th>Location</th>
+                           </tr>
+                        </thead>
+                        <tbody className="tableStriped">
+                           <tr>
+                              <td>abc</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>xyz</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>def</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>hij</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                           </tr>
+                           <tr>
+                              <td>uvw</td>
+                              <td></td>
+                              <td></td>
+                              <td></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
             </div>
          </div>
       );

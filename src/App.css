@@ -46,13 +46,13 @@
    flex-direction: column;
    background-color: #fff9e9;
    font-family: Geneva, sans-serif;
-   height: 100vh;
+   height: 100%;
 }
 
 .navbar{
    background-color: #add8e6;
    font-size: 24px;
-   height: 15vh
+   height: 15%;
 }
 
 .transactions{
@@ -64,7 +64,7 @@
 
 .footer{
    background-color: lightslategray;
-   height: 10vh;
+   height: 8.1vh;
 }
 
 .logo{
@@ -139,21 +139,10 @@
    height: 75vh;
 }
 
-.products{
-   width: 230px;
-   height: 140px
+.bgr{
+   width: 170px;
+   height: 110px;
 }
-
-.categories{
-   width: 216px;
-   height: 140px
-}
-
-.locations{
-   width: 230px;
-   height: 140px
-}
-
 
 
 

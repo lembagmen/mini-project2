@@ -10,7 +10,7 @@ function App() {
    return (
       <div className="body">
          <Header/>
-         <MainContent className="mainContent"/>
+         <MainContent/>
          <Footer textContent="All rights reserved 2022."/>
       </div>
   );
